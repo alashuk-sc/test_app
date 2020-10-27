@@ -8,6 +8,9 @@ npm install
 
 ### Run IOS
 ```
+cd ios
+pod install
+cd ..
 npm run ios
 ```
 
@@ -15,4 +18,7 @@ npm run ios
 ```
 npm run android
 ```
-# test_app
+
+### Description 
+Given links which were supposed to carry to the WebView are broken so I commented out the real paths and inserted a link to google.com.
+
